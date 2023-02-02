@@ -1,0 +1,97 @@
+Group: Addison, Mariam, Diya
+
+TO START THE PROGRAM: Run UILogin.java file to first start up the program.
+If any other class is launched first, errors will occur. 
+
+There are 2 accounts already made which you can log into, you can view the SavingsFile.txt or General Investment CertificateFile.txt
+to see all the info on these accounts made which includes the current balance of the account as well.
+
+The accounts you can log in with are : 
+
+Account 1:
+Username: bob123
+Password: bricks321
+
+Account 2:
+Username: dora987
+Password: exploring101
+
+
+To create an account, simply press "Create an Account" button on the UILogin and it will direct you to
+a new window where you need to enter all your info and once that is done you will be directed to the 
+transaction window where you can deposit and withdraw amounts.
+
+To login as a bank employee, click the lock icon on the bottom right of the UILogin.java window and that
+will redirect you to an employee login page.
+
+The login info for the employee account is in the Employee Login text file
+Employee login info:
+
+Username: debbieOcean123
+Password: computerscienceishard
+
+Enhancement GUI windows:
+
+The following classes are the GUI windows that contain the enhancement pieces. (Employee Login and Employee Records window)
+
+BELogin.java
+BERecords.java
+
+
+Java Files Needed:
+
+- Account.java
+- BELogin.java
+- BERecords.java
+- Customer.java
+- FileAccess.java
+- GIC.java
+- Savings.java
+- TransactionList.java
+- TransactionRecord.java
+- UICreateAccount.java
+- UILogin.java
+- UITransaction.java
+
+
+Image Files Needed:
+
+- bebackground.png
+- belogin.png
+- button_cancel.png
+- button_create-an-account.png
+- button_create.png
+- button_deposit.png
+- button_display-transactions.png
+- button_enter.png
+- button_login.png
+- button_logout.png
+- button_save.png
+- button_sort.png
+- button_delete.png
+- button_insert.png
+- button_withdraw.png
+- lock icon.png
+- loginbackground.jpg
+- rsz_createaccbackground.png
+- rsz_return.png
+- TDLogo.png
+- transactionbackground.png
+
+Text Files Needed:
+
+- EmployeeLogin
+- General Investment CertificateFile.txt
+- SavingsFile.txt
+- TestFile.txt
+- TestFileReference.txt
+- EmployeeFile.txt
+- bob123File.txt
+- dora987File.txt
+
+Known Bugs:
+
+- In the UI Transaction, for the GIC accounts the program does not know when the maturity date is which is why it deducts a penalty on all
+  transactions. 
+  
+  
